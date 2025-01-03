@@ -87,7 +87,7 @@ const HomePage = () => {
     },
     {
       id: 'Womens Dresses',
-      title: 'Women`s',
+      title: 'Womens',
       price: 'starting at $50',
       image: '/p14.png',
       link: '/mens/accessories',
