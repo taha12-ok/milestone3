@@ -27,7 +27,10 @@ const HomePage = () => {
     return () => observer.disconnect();
   }, []); // <-- Added missing closing parenthesis and dependency array
 
-  const [isVisible, setIsVisible] = useState<any>({});
+ type VisibilityState = Record<string, boolean>;
+
+const [isVisible, setIsVisible] = useState<VisibilityState>({});
+
 
   useEffect(() => {
     const observer = new IntersectionObserver(
