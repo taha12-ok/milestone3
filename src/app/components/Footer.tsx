@@ -32,7 +32,7 @@ export default function Footer() {
             <h3 className="font-bold mb-4">Discover</h3>
             <ul className="space-y-2">
               <li><a href="/gift-cards" className="hover:text-gray-300 transition-colors">Gift Cards</a></li>
-              <li><a href="/rewards" className="hover:text-gray-300 transition-colors">Frank's Club</a></li>
+              <li><a href="/rewards" className="hover:text-gray-300 transition-colors">Franks Club</a></li>
               <li><a href="/referral" className="hover:text-gray-300 transition-colors">Give $15, Get $15</a></li>
             </ul>
           </div>
