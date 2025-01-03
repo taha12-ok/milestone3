@@ -36,7 +36,7 @@ const [isVisible, setIsVisible] = useState<VisibilityState>({});
     const observer = new IntersectionObserver(
       (entries) => {
         entries.forEach((entry) => {
-          setIsVisible((prev: any) => ({
+          setIsVisible((prev: VisibilityState) => ({
             ...prev,
             [entry.target.id]: entry.isIntersecting,
           }));
