@@ -51,42 +51,42 @@ const HomePage = () => {
 
   const categories = [
     {
-      id: 'Men`s Jackets ',
+      id: 'Mens Jackets ',
       title: 'Jackets starting',
       price: 'starting at $45',
       image: '/p9.png',
       link: '/womens/sweaters',
     },
     {
-      id: 'Women`s Jackets ',
+      id: 'Womens Jackets ',
       title: 'Jackets starting',
       price: 'starting at $45',
       image: '/p10.png',
       link: '/mens/sweaters',
     },
     {
-      id: 'Men`s Accessories',
+      id: 'Mens Accessories',
       title: 'Accessories starting',
       price: 'starting at $7',
       image: '/p11.png',
       link: '/womens/jackets',
     },
     {
-      id: 'Women`s Accessories',
+      id: 'Womens Accessories',
       title: 'Accessories',
       price: 'starting at $7',
       image: '/p12.png',
       link: '/mens/jackets',
     },
     {
-      id: 'Men`s Pants ',
+      id: 'Mens Pants ',
       title: 'Pants starting',
       price: 'starting at $26',
       image: '/p13.png',
       link: '/womens/accessories',
     },
     {
-      id: 'Women`s Dresses',
+      id: 'Womens Dresses',
       title: 'Women`s',
       price: 'starting at $50',
       image: '/p14.png',
@@ -98,14 +98,14 @@ const HomePage = () => {
     {
       id: 'review1',
       rating: 4,
-      text: "This is so warm! It's kind of like wearing a sleeping bag in the best way.",
+      text: "This is so warm! Its kind of like wearing a sleeping bag in the best way.",
       author: 'Jessica M.',
       image: '/placeholder/400/600',
     },
     {
       id: 'review2',
       rating: 5,
-      text: "Quality parka with features you'd find on much higher priced brands. Great streamlined fit, nice little features and quality outer shell that's waterproof and breathable.",
+      text: "Quality parka with features youd find on much higher priced brands. Great streamlined fit, nice little features and quality outer shell thats waterproof and breathable.",
       author: 'Jack L.',
       image: '/placeholder/400/600',
     },
@@ -231,7 +231,7 @@ const HomePage = () => {
     <div className="max-w-2xl text-white reveal opacity-0 transition-all duration-1000 translate-y-10">
       <h1 className="text-6xl hover:text-[#e5ff00] font-bold mb-4">WINTER SALE</h1>
       <p className="text-8xl font-bold text-[#e5ff00] hover:text-white mb-6">UP TO 50% OFF</p>
-      <p className="text-2xl mb-8">+ Additional 25% off Everything*</p>
+      <p className="text-2xl mb-8">+ Additional 25% off Everything</p>
       <div className="flex space-x-4">
         <a
           href="/women"
@@ -281,7 +281,7 @@ const HomePage = () => {
               isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-5'
             }`}
           >
-            Treat yourself with an Additional 25% off Everything*
+            Treat yourself with an Additional 25% off Everything
           </h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
             {products.map((product, index) => (
@@ -374,7 +374,7 @@ const HomePage = () => {
 
       {/* Reviews Section */}
       <section className="py-40 bg-gray-50 ">
-        <h2 className="text-5xl text-black hover:text-blue-500 font-bold mb-20 text-center">You didn't hear it from us</h2>
+        <h2 className="text-5xl text-black hover:text-blue-500 font-bold mb-20 text-center">You didnt hear it from us</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-6xl mx-auto px-4">
           {reviews.map((review) => (
             <div
@@ -405,7 +405,7 @@ const HomePage = () => {
         <div className="max-w-6xl mx-auto px-4">
           <h2 className="text-4xl  hover:text-yellow-500 font-bold mb-4">Made for Good Living.</h2>
           <p className="text-xl hover:text-yellow-500 text-gray-300 mb-12">
-            Born and raised in Montreal, Frank And Oak is dedicated to creating conscious collections that seamlessly fit into your everyday life.
+            Born and raised in Montreal Frank And Oak is dedicated to creating conscious collections that seamlessly fit into your everyday life.
           </p>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
             {values.map((value) => (
@@ -438,7 +438,7 @@ const HomePage = () => {
       <section className="py-16 bg-gray-100">
         <h2 className="text-4xl text-black hover:text-gray-500 font-bold mb-8 text-center">Explore More of Our Story</h2>
         <p className="text-xl text-gray-600 mb-12 text-center">
-          Dive deeper into the philosophy behind our brand and learn about our commitment to sustainability, quality, and design.
+          Dive deeper into the philosophy behind our brand and learn about our commitment to sustainability quality and design.
         </p>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 max-w-7xl mx-auto">
           {/* Add More Content Below */}
